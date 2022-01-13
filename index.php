@@ -298,19 +298,145 @@
 			</div>
 		</div>
 	</section>
-	<section class="box-feedback">
+	<!-- <section class="box-feedback">
 		<div class="container">
 			<div class="title text-center">
 				<p>Khách hàng của Zilom</p>
 				<h2>Cảm nhận của học viên</h2>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section class="box-member">
 		<div class="container">
 			<div class="title text-center">
 				<p>Hệ thống khóa học</p>
 				<h2>+500 giáo viên tận tụy</h2>
+			</div>
+			<div class="slide-member">
+				<div class="item-slide">
+					<div class="item-memb">
+						<div class="avarta"><a href=""></a><img src="images/mem-1.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<span>Ngô Thanh Vân</span>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-memb">
+						<div class="avarta"><a href=""></a><img src="images/mem-2.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<span>Ngô Thanh Vân</span>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-memb">
+						<div class="avarta"><a href=""></a><img src="images/mem-1.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<span>Ngô Thanh Vân</span>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-memb">
+						<div class="avarta"><a href=""></a><img src="images/mem-2.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<span>Ngô Thanh Vân</span>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-memb">
+						<div class="avarta"><a href=""></a><img src="images/mem-1.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<span>Ngô Thanh Vân</span>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-memb">
+						<div class="avarta"><a href=""></a><img src="images/mem-2.png" class="img-fluid w-100" alt=""></div>
+						<div class="info">
+							<span>Ngô Thanh Vân</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="box-blog">
+		<div class="container">
+			<div class="title text-center">
+				<p>Hệ thống khóa học</p>
+				<h2>Kho tàng kiến thức</h2>
+			</div>
+			<div class="slide-blog">
+				<div class="item-slide">
+					<div class="item-blog">
+						<div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
+						<div class="info">
+							<p>10/11/2021</p>
+							<h3><a href="">Giải đáp thắc mắc về cách ghi đáp án trong phần thi IELTS...</a></h3>
+							<div class="desc">
+								Anh Ngữ ZIM giải đáp một số thắc mắc các bạn thường gặp phải trong quá trình luyện và thi IELTS Listening
+							</div>
+							<div class="more-link"><a href="">ĐỌC TIẾP</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-blog">
+						<div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
+						<div class="info">
+							<p>10/11/2021</p>
+							<h3><a href="">Giải đáp thắc mắc về cách ghi đáp án trong phần thi IELTS...</a></h3>
+							<div class="desc">
+								Anh Ngữ ZIM giải đáp một số thắc mắc các bạn thường gặp phải trong quá trình luyện và thi IELTS Listening
+							</div>
+							<div class="more-link"><a href="">ĐỌC TIẾP</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-blog">
+						<div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
+						<div class="info">
+							<p>10/11/2021</p>
+							<h3><a href="">Giải đáp thắc mắc về cách ghi đáp án trong phần thi IELTS...</a></h3>
+							<div class="desc">
+								Anh Ngữ ZIM giải đáp một số thắc mắc các bạn thường gặp phải trong quá trình luyện và thi IELTS Listening
+							</div>
+							<div class="more-link"><a href="">ĐỌC TIẾP</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="item-slide">
+					<div class="item-blog">
+						<div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
+						<div class="info">
+							<p>10/11/2021</p>
+							<h3><a href="">Giải đáp thắc mắc về cách ghi đáp án trong phần thi IELTS...</a></h3>
+							<div class="desc">
+								Anh Ngữ ZIM giải đáp một số thắc mắc các bạn thường gặp phải trong quá trình luyện và thi IELTS Listening
+							</div>
+							<div class="more-link"><a href="">ĐỌC TIẾP</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="box-partner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="title">
+						<p>Hệ thống khóa học</p>
+						<h2>Đối tác thân thiện <br> của Zilom</h2>
+						<div class="desc">Luyện thi IELTS, TOEIC cam kết đầu ra. Đạt điểm số mong muốn và tiết kiệm 80% thời gian tự học</div>
+					</div>
+				</div>
+				<div class="col-md-6"></div>
 			</div>
 		</div>
 	</section>
