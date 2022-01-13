@@ -3,88 +3,100 @@
   padding: 0; }
 
 @font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-Italic.woff2") format("woff2"), url("../fonts/nunito/Nunito-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-ExtraLight.woff2") format("woff2"), url("../fonts/nunito/Nunito-ExtraLight.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-ExtraLightItalic.woff2") format("woff2"), url("../fonts/nunito/Nunito-ExtraLightItalic.woff") format("woff");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-Light.woff2") format("woff2"), url("../fonts/nunito/Nunito-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-LightItalic.woff2") format("woff2"), url("../fonts/nunito/Nunito-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-Regular.woff2") format("woff2"), url("../fonts/nunito/Nunito-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-Bold.woff2") format("woff2"), url("../fonts/nunito/Nunito-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-Black.woff2") format("woff2"), url("../fonts/nunito/Nunito-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-SemiBold.woff2") format("woff2"), url("../fonts/nunito/Nunito-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap; }
-@font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-SemiBoldItalic.woff2") format("woff2"), url("../fonts/nunito/Nunito-SemiBoldItalic.woff") format("woff");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-BlackItalic.woff2") format("woff2"), url("../fonts/nunito/Nunito-BlackItalic.woff") format("woff");
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-BlackItalic.woff2") format("woff2"), url("../fonts/mulish/Mulish-BlackItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-display: swap; }
 @font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-BoldItalic.woff2") format("woff2"), url("../fonts/nunito/Nunito-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap; }
-@font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-ExtraBold.woff2") format("woff2"), url("../fonts/nunito/Nunito-ExtraBold.woff") format("woff");
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-Bold.woff2") format("woff2"), url("../fonts/mulish/Mulish-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
 @font-face {
-  font-family: 'Nunito';
-  src: url("../fonts/nunito/Nunito-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/nunito/Nunito-ExtraBoldItalic.woff") format("woff");
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-ExtraBold.woff2") format("woff2"), url("../fonts/mulish/Mulish-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-BoldItalic.woff2") format("woff2"), url("../fonts/mulish/Mulish-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-ExtraLight.woff2") format("woff2"), url("../fonts/mulish/Mulish-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/mulish/Mulish-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-Italic.woff2") format("woff2"), url("../fonts/mulish/Mulish-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-ExtraLightItalic.woff2") format("woff2"), url("../fonts/mulish/Mulish-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-Light.woff2") format("woff2"), url("../fonts/mulish/Mulish-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-Regular.woff2") format("woff2"), url("../fonts/mulish/Mulish-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-LightItalic.woff2") format("woff2"), url("../fonts/mulish/Mulish-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-MediumItalic.woff2") format("woff2"), url("../fonts/mulish/Mulish-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-SemiBold.woff2") format("woff2"), url("../fonts/mulish/Mulish-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-SemiBoldItalic.woff2") format("woff2"), url("../fonts/mulish/Mulish-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-Medium.woff2") format("woff2"), url("../fonts/mulish/Mulish-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Mulish';
+  src: url("../fonts/mulish/Mulish-Black.woff2") format("woff2"), url("../fonts/mulish/Mulish-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
   font-display: swap; }
 body {
   box-sizing: border-box;
@@ -95,7 +107,7 @@ body {
   transition: .3s all;
   position: relative;
   font-weight: normal;
-  font-family: 'Nunito';
+  font-family: 'Mulish';
   background: #fff;
   color: #000000;
   overflow-x: hidden; }
@@ -110,7 +122,7 @@ body {
     transition: .3s all !important;
     color: #000000; }
     body a:hover {
-      color: #F05623; }
+      color: #4D5FE3; }
   body ul {
     padding: 0;
     margin: 0; }
@@ -129,5 +141,263 @@ body {
     max-width: 100%; }
   body .slick-slider {
     margin-bottom: 0; }
+
+.header-top {
+  border-bottom: 1px solid #E0E0E0;
+  padding: 25px 0; }
+  .header-top ul {
+    list-style: none; }
+
+.head-right {
+  display: flex;
+  align-items: center;
+  justify-content: end; }
+  .head-right .social {
+    margin-right: 45px; }
+    .head-right .social ul {
+      display: flex;
+      align-items: center; }
+      .head-right .social ul li {
+        margin-right: 15px; }
+        .head-right .social ul li:last-child {
+          margin-right: 0; }
+    .head-right .social a {
+      display: flex;
+      width: 40px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      background: #4D5FE3;
+      color: #fff;
+      border-radius: 100%;
+      font-size: 18px; }
+
+.info-head-top ul {
+  display: flex;
+  align-items: center; }
+  .info-head-top ul li {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    padding-right: 30px;
+    border-right: 2px solid #E0E0E0; }
+    .info-head-top ul li:last-child {
+      margin-right: 0;
+      padding-right: 0;
+      border-right: 0; }
+.info-head-top .icon {
+  flex: 0 0 35px;
+  margin-right: 15px; }
+.info-head-top span {
+  color: #828282;
+  font-size: 14px; }
+.info-head-top p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  top: -4px; }
+
+.header-menu a {
+  font-size: 18px;
+  font-weight: 600; }
+
+.h-menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center; }
+  .h-menu ul li {
+    margin-right: 44px; }
+    .h-menu ul li:last-child {
+      margin-right: 0; }
+.h-menu a {
+  display: flex;
+  padding: 24px 0;
+  position: relative;
+  align-items: center; }
+  .h-menu a.active {
+    color: #4D5FE3; }
+  .h-menu a i {
+    margin-left: 10px; }
+
+.box-user i {
+  margin-right: 10px; }
+
+.item-srv {
+  background: #FFFFFF;
+  border-radius: 20px;
+  height: 100%;
+  box-shadow: 0px 0px 20px #19132f1a;
+  display: flex;
+  align-items: center;
+  padding: 25px 12px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #4F4F4F;
+  border: 1px solid transparent;
+  transition: .3s all !important; }
+  .item-srv .icon {
+    flex: 0 0 80px;
+    margin-right: 20px; }
+  .item-srv h5 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px; }
+  .item-srv:hover {
+    border: 1px solid #4D5FE3;
+    box-shadow: 0px 8px 4px #4d5fe3; }
+
+.box-srv {
+  padding: 100px 0; }
+
+.title {
+  margin-bottom: 30px; }
+  .title p {
+    color: #4D5FE3;
+    font-size: 20px;
+    font-weight: 600; }
+  .title h2 {
+    color: #333;
+    font-size: 44px;
+    font-weight: 900; }
+
+.search-sub {
+  margin-bottom: 40px; }
+  .search-sub .row {
+    margin: 0 -10px; }
+    .search-sub .row > div {
+      padding: 0 10px; }
+
+.item-search label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px; }
+.item-search input, .item-search select {
+  border: 1px solid #BDBDBD;
+  box-sizing: border-box;
+  border-radius: 7px;
+  height: 46px;
+  width: 100%;
+  padding: 0 12px;
+  font-size: 16px;
+  outline: none; }
+
+.list-subject .row {
+  margin: 0 -10px; }
+  .list-subject .row > div {
+    padding: 0 10px; }
+
+.item-subject {
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px #1614361a;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 15px;
+  margin-bottom: 30px; }
+  .item-subject .avarta {
+    overflow: hidden; }
+    .item-subject .avarta img {
+      transition: .4s all !important; }
+      .item-subject .avarta img:hover {
+        transform: scale(1.08); }
+  .item-subject .info {
+    padding: 15px; }
+    .item-subject .info h3 a {
+      display: block;
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 10px; }
+  .item-subject .view-more {
+    margin-top: 15px; }
+    .item-subject .view-more a {
+      background: #F2F2F2;
+      border-radius: 10px;
+      height: 44px;
+      font-size: 18px;
+      font-weight: 700;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      display: flex;
+      color: #222b3c33; }
+      .item-subject .view-more a:hover {
+        background: #4D5FE3;
+        color: #fff; }
+
+.numb-sec {
+  color: #4F4F4F;
+  display: flex;
+  align-items: center; }
+
+.view-all a {
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  background: #4D5FE3;
+  color: #fff;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 70px;
+  border: 1px solid #4D5FE3; }
+  .view-all a:hover {
+    background: #fff;
+    color: #4D5FE3; }
+
+.box-subject {
+  padding-bottom: 50px; }
+
+.box-banner-content {
+  padding: 80px 0;
+  margin-bottom: 50px; }
+
+.box-banner-content {
+  color: #Fff; }
+
+.content-bn h5 {
+  font-size: 58px;
+  font-weight: 900; }
+  .content-bn h5 span {
+    color: #4D5FE3; }
+.content-bn h3 {
+  color: #FFD45F;
+  font-size: 58px;
+  font-weight: 900;
+  padding: 20px 0; }
+.content-bn .desc {
+  color: #F2F2F2;
+  font-size: 18px;
+  font-weight: 300; }
+
+.slide-docs {
+  margin: 0 -10px; }
+  .slide-docs .item-slide {
+    padding: 15px 10px; }
+
+.item-docs {
+  background: #EDEDF4;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 5px 20px #1614361a; }
+  .item-docs .avarta {
+    padding: 20px; }
+  .item-docs .info {
+    background: #fff;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #333333; }
+    .item-docs .info a {
+      display: block;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      line-height: 1.5; }
+
+.box-docs {
+  padding-bottom: 60px; }
+  .box-docs .view-all {
+    padding-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */

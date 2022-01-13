@@ -60,11 +60,11 @@
                     <div class="col-md-9">
                         <div class="h-menu">
                             <ul>
-                                <li><a href="">Trang chủ</a></li>
+                                <li><a href="" class="active">Trang chủ</a></li>
                                 <li><a href="">Giới thiệu</a></li>
-                                <li><a href="">Khóa học</a></li>
-                                <li><a href="">Sách</a></li>
-                                <li><a href="">Kiến thức</a></li>
+                                <li><a href="">Khóa học <i class="fa fa-angle-down"></i></a></li>
+                                <li><a href="">Sách <i class="fa fa-angle-down"></i></a></li>
+                                <li><a href="">Kiến thức <i class="fa fa-angle-down"></i></a></li>
                                 <li><a href="">Liên hệ</a></li>
                                 <li><a href="">Tuyển dụng</a></li>
                             </ul>
