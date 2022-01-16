@@ -307,3 +307,12 @@ footer {
         }
     }
 }
+
+.col-right {
+    flex: 0 0 365px;
+    max-width: 365px;
+}
+.col-left {
+    flex: 0 0 calc(100% - 365px);
+    max-width: calc(100% - 365px);
+}
