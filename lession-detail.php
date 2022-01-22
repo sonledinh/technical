@@ -98,11 +98,45 @@
 										<li>Hệ thống học liệu hoàn thiện và phương pháp giảng dạy cá nhân hoá: đảm bảo học viên được trải nghiệm chất lượng chuyên môn tốt nhất</li>
 										<li>Hoàn tiền 100% trong 2 tuần đầu nếu không hài lòng.</li>
 									</ul>
-									<div class="more-less"><a href="">Xem thêm...</a></div>
 								</div>
 							</div>
 							<div class="item-less-box">
-								<div class="title-ctn-less">Bình luận</div>
+								<div class="title-ctn-less">Lịch khai giảng</div>
+								<div class="info">
+									<div class="tbale-calendar">
+										<table class="w-100">
+											<thead>
+												<th>Lớp học</th>
+												<th>Khai giảng</th>
+												<th>Ca học</th>
+												<th>Buổi học</th>
+											</thead>
+											<tbody>
+												<tr>
+													<td><a href="">ClassRoom IELTS Level 7.5</a></td>
+													<td>21/12/2021</td>
+													<td>9:00 - 11:30</td>
+													<td>Thứ 2, 4, 6</td>
+												</tr>
+												<tr>
+													<td><a href="">ClassRoom IELTS Level 7.5</a></td>
+													<td>21/12/2021</td>
+													<td>9:00 - 11:30</td>
+													<td>Thứ 2, 4, 6</td>
+												</tr>
+												<tr>
+													<td><a href="">ClassRoom IELTS Level 7.5</a></td>
+													<td>21/12/2021</td>
+													<td>9:00 - 11:30</td>
+													<td>Thứ 2, 4, 6</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="item-less-box">
+								<div class="title-ctn-less">Nhận xét</div>
 								<div class="cmt-box"><img src="http://tpl.gco.vn/noithat-hide/images/cmt.png" class="img-fluid w-100" alt=""></div>
 							</div>
 						</div>

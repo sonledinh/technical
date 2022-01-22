@@ -62,9 +62,53 @@
                             <ul>
                                 <li><a href="" class="active">Trang chủ</a></li>
                                 <li><a href="">Giới thiệu</a></li>
-                                <li><a href="">Khóa học <i class="fa fa-angle-down"></i></a></li>
-                                <li><a href="">Sách <i class="fa fa-angle-down"></i></a></li>
-                                <li><a href="">Kiến thức <i class="fa fa-angle-down"></i></a></li>
+                                <li>
+                                    <a href="">Khóa học <i class="fa fa-angle-down"></i></a>
+                                    <div class="mega-menu">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <div class="item-submenu">
+                                                        <h3>Lịch khai giảng</h3>
+                                                        <ul>
+                                                            <li><a href=""><i class="fa fa-caret-right"></i>Luyện thi IELTS</a></li>
+                                                            <li><a href=""><i class="fa fa-caret-right"></i>Luyện thi IELTS</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="item-submenu">
+                                                        <h3>Luyện thi IELTS</h3>
+                                                        <ul>
+                                                            <li><a href=""><i class="fa fa-caret-right"></i>Luyện thi IELTS</a></li>
+                                                            <li><a href=""><i class="fa fa-caret-right"></i>Luyện thi IELTS</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="item-submenu">
+                                                        <h3>Luyện thi TOEIC</h3>
+                                                        <ul>
+                                                            <li><a href=""><i class="fa fa-caret-right"></i>Luyện thi IELTS</a></li>
+                                                            <li><a href=""><i class="fa fa-caret-right"></i>Luyện thi IELTS</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="item-submenu">
+                                                        <h3>Bài thi khác</h3>
+                                                        <ul>
+                                                            <li><a href=""><i class="fa fa-caret-right"></i>Luyện thi IELTS</a></li>
+                                                            <li><a href=""><i class="fa fa-caret-right"></i>Luyện thi IELTS</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="">Sách</a></li>
+                                <li><a href="">Kiến thức</a></li>
                                 <li><a href="">Liên hệ</a></li>
                                 <li><a href="">Tuyển dụng</a></li>
                             </ul>
@@ -72,7 +116,26 @@
                     </div>
                     <div class="col-md-3 text-right">
                         <div class="box-user">
-                            <a href="javascript:void(0)"><i class="fa fa-user"></i><span>Đăng nhập</span></a>
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#myModal"><i class="fa fa-user"></i><span>Đăng nhập</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="content-popup">
+                            <!-- <button type="button" class="close" data-dismiss="modal">&times;</button>  -->
+                            <h3 class="text-uppercase">Đăng nhập</h3>
+                            <div class="frm-popup">
+                                <div class="item"><input type="text" placeholder="Tài khoản" class="txt_field"></div>
+                                <div class="item"><input type="password" placeholder="Mật khẩu" class="txt_field"></div>
+                                <div class="item text-center"><input type="submit" value="Đăng nhập" class="btn_field"></div>
+                                <div class="item text-center"><a href="">Quên mật khẩu?</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
