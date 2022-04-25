@@ -1,444 +1,187 @@
 <?php include 'header.php';?>
 <main>
 	<section class="box-banner">
-		<div class="slide-banner">
-			<div class="item-slide">
-				<div class="item-banner">
-					<div class="avarta"><img src="images/banner.jpg" class="img-fluid w-100" alt=""></div>
-				</div>
-			</div>
-			<div class="item-slide">
-				<div class="item-banner">
-					<div class="avarta"><img src="images/banner.jpg" class="img-fluid w-100" alt=""></div>
-				</div>
-			</div>
-			<div class="item-slide">
-				<div class="item-banner">
-					<div class="avarta"><img src="images/banner.jpg" class="img-fluid w-100" alt=""></div>
-				</div>
-			</div>
-		</div>
+		<div class="avarta-banner"><img src="images/ss1.jpg" class="img-fluid w-100" alt=""></div>
+		<div class="abs-song"><img src="images/background-top.png" class="img-fluid w-100" alt=""></div> 
+
+		<div class="cover-mobile text-center d-none"><img src="images/cover-mobile.png" class="img-fluid w-100" alt=""></div> 
 	</section>
-	<section class="box-srv">
-		<div class="container">
-			<div class="list-srv">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="item-srv">
-							<div class="icon"><img src="images/i-srv-1.png" class="img-fluid" alt=""></div>
-							<div class="info">
-								<h5>Giáo viên có chuyên môn</h5>
-								<p>Nội dung trọng tâm theo chủ điểm bài thi, phương pháp học...</p>
+	<section class="box-content">
+		<div class="box-1" id="pg-1">
+			<div class="container">
+				<div class="title text-center">
+					<h4>Sử dụng dịch vụ thanh toán trực tuyến của 9Pay </h4>
+					<h2>tiền mặt chi ngay về ví </h2>
+				</div>
+				<div class="content-box-pay">
+					<div class="row align-items-center">
+						<div class="col-md-7"> 
+							<div class="txt-pay">
+								<ul>
+									<li><span>1</span>Bấm nút "đăng ký" để tiến hành đăng ký tài khoản	</li>
+									<li><span>2</span>Hoàn thiện thông tin đăng ký theo form và gửi yêu cầu</li>
+									<li><span>3</span>Nhận thông tin tài khoản qua email đăng kí	</li>
+									<li><span>4</span>Sử dụng dịch vụ và phát sinh giao dịch thanh toán</li>
+									<li><span>5</span>Đăng kí ví điện tử 9Pay và hoàn thành KYC để nhận thưởng</li>
+								</ul>
+								<div class="btn-cta text-center"><a href="register.php"><img src="images/cta.png" class="img-fluid" alt=""></a></div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="avr-pay text-center">
+								<div class="item"><img src="images/200k-1.png" class="img-fluid" alt=""></div>
+								<div class="item"><img src="images/200k-2.png" class="img-fluid" alt=""></div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="item-srv">
-							<div class="icon"><img src="images/i-srv-2.png" class="img-fluid" alt=""></div>
-							<div class="info">
-								<h5>Rút 70% thời gian học</h5>
-								<p>Nội dung trọng tâm theo chủ điểm bài thi, phương pháp học...</p>
+				</div>
+			</div>  
+		</div>
+		<div class="box-about" id="pg-2">
+			<div class="container">
+				<div class="title text-center">
+					<h2>Giới thiệu bạn bè</h2>
+					<h4>Nhận thưởng tiền mặt không giới hạn</h4>
+				</div>
+				<div class="content-about">
+					<div class="row align-items-center m-0">
+						<div class="col-md-7 p-0">
+							<div class="avarta-about text-center"><img src="images/hopqua.png" class="img-fluid" alt=""></div>
+						</div>
+						<div class="col-md-5 p-0">
+							<div class="txt-pay">
+								<ul class="mb-0">
+									<li><span>1</span>Giới thiệu chương trình, chia sẻ link giới thiệu hoặc mã giới thiệu đến bạn bè</li>
+									<li><span>2</span>Hướng dẫn bạn bè gửi thông tin đăng kí theo form</li>
+									<li><span>3</span>Hướng dẫn bạn bè tạo giao dịch thanh toán cho khách hàng qua Cổng 9Pay</li>
+									<li><span>4</span>Tải ví 9Pay và kiểm tra quà tặng được cộng thẳng vào số dư ví</li>
+								</ul>
 							</div>
 						</div>
+					</div> 
+				</div>
+			</div>
+		</div>
+		<div class="box-rule" id="pg-3">
+			<div class="container">
+				<div class="title text-center">
+					<h2>Thể lệ chương trình</h2>
+					<p><span>Thể lệ chi tiết</span></p> 
+				</div>
+				<div class="rule-tab">
+					<div class="rule-top text-uppercase">
+						<ul>
+							<li><a href="javascript:void(0)" data-tab="rule-1" class="active clc-tab">Người tham gia</a></li>
+							<li><a href="javascript:void(0)" data-tab="rule-2" class="clc-tab">Cách thức tham gia và nhận thưởng</a></li>
+							<li><a href="javascript:void(0)" data-tab="rule-3" class="clc-tab">Faq</a></li>
+						</ul>
 					</div>
-					<div class="col-md-4">
-						<div class="item-srv">
-							<div class="icon"><img src="images/i-srv-3.png" class="img-fluid" alt=""></div>
-							<div class="info">
-								<h5>Chứng nhận ra trường</h5>
-								<p>Nội dung trọng tâm theo chủ điểm bài thi, phương pháp học...</p>
+					<div class="content-rule">
+						<div class="tab-content active" id="rule-1">
+							<p>- Đối tượng tham gia là các cá nhân, hộ kinh doanh hoặc doanh nghiệp kinh doanh online qua các nền tảng mạng xã hội, website, sàn thương mại điện tử</p>
+							<p>- Người giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp đã đăng ký sử dụng dịch vụ cổng 9Pay và được 9PAY cấp tài khoản thành công trước và trong thời gian diễn ra chương trình khuyến mại.</p>
+							<p>- Người được giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp chưa từng Đăng ký sử dụng dịch vụ trung gian thanh toán 9Pay.</p>
+							<p>- Lượt giới thiệu thành công được ghi nhận khi Người được giới thiệu Đăng ký thành công cổng thanh toán 9PAY và được 9PAY cấp tài khoản (thông qua nhập Mã giới thiệu ở bước Đăng ký), hoàn thành Định danh thông tin cổng thanh toán 9PAY.</p>
+							<p>- Người được giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp chưa từng Đăng ký sử dụng dịch vụ trung gian thanh toán 9Pay.</p>
+							<p>- Lượt giới thiệu thành công được ghi nhận khi Người được giới thiệu Đăng ký thành công cổng thanh toán 9PAY và được 9PAY cấp tài khoản (thông qua nhập Mã giới thiệu ở bước Đăng ký), hoàn thành Định danh thông tin cổng thanh toán 9PAY.</p>
+							<p>- Người được giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp chưa từng Đăng ký sử dụng dịch vụ trung gian thanh toán 9Pay.</p>
+							<p>- Lượt giới thiệu thành công được ghi nhận khi Người được giới thiệu Đăng ký thành công cổng thanh toán 9PAY và được 9PAY cấp tài khoản (thông qua nhập Mã giới thiệu ở bước Đăng ký), hoàn thành Định danh thông tin cổng thanh toán 9PAY.</p>
+						</div>
+						<div class="tab-content" id="rule-2">
+							<p>- Đối tượng tham gia là các cá nhân, hộ kinh doanh hoặc doanh nghiệp kinh doanh online qua các nền tảng mạng xã hội, website, sàn thương mại điện tử</p>
+							<p>- Người giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp đã đăng ký sử dụng dịch vụ cổng 9Pay và được 9PAY cấp tài khoản thành công trước và trong thời gian diễn ra chương trình khuyến mại.</p>
+							<p>- Người được giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp chưa từng Đăng ký sử dụng dịch vụ trung gian thanh toán 9Pay.</p>
+							<p>- Lượt giới thiệu thành công được ghi nhận khi Người được giới thiệu Đăng ký thành công cổng thanh toán 9PAY và được 9PAY cấp tài khoản (thông qua nhập Mã giới thiệu ở bước Đăng ký), hoàn thành Định danh thông tin cổng thanh toán 9PAY.</p>
+							<p>- Đối tượng tham gia là các cá nhân, hộ kinh doanh hoặc doanh nghiệp kinh doanh online qua các nền tảng mạng xã hội, website, sàn thương mại điện tử</p>
+							<p>- Người giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp đã đăng ký sử dụng dịch vụ cổng 9Pay và được 9PAY cấp tài khoản thành công trước và trong thời gian diễn ra chương trình khuyến mại.</p>
+							<p>- Người được giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp chưa từng Đăng ký sử dụng dịch vụ trung gian thanh toán 9Pay.</p>
+							<p>- Lượt giới thiệu thành công được ghi nhận khi Người được giới thiệu Đăng ký thành công cổng thanh toán 9PAY và được 9PAY cấp tài khoản (thông qua nhập Mã giới thiệu ở bước Đăng ký), hoàn thành Định danh thông tin cổng thanh toán 9PAY.</p>
+						</div>
+						<div class="tab-content" id="rule-3">
+							<p>- Đối tượng tham gia là các cá nhân, hộ kinh doanh hoặc doanh nghiệp kinh doanh online qua các nền tảng mạng xã hội, website, sàn thương mại điện tử</p>
+							<p>- Người giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp đã đăng ký sử dụng dịch vụ cổng 9Pay và được 9PAY cấp tài khoản thành công trước và trong thời gian diễn ra chương trình khuyến mại.</p>
+							<p>- Người được giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp chưa từng Đăng ký sử dụng dịch vụ trung gian thanh toán 9Pay.</p>
+							<p>- Lượt giới thiệu thành công được ghi nhận khi Người được giới thiệu Đăng ký thành công cổng thanh toán 9PAY và được 9PAY cấp tài khoản (thông qua nhập Mã giới thiệu ở bước Đăng ký), hoàn thành Định danh thông tin cổng thanh toán 9PAY.</p>
+							<p>- Đối tượng tham gia là các cá nhân, hộ kinh doanh hoặc doanh nghiệp kinh doanh online qua các nền tảng mạng xã hội, website, sàn thương mại điện tử</p>
+							<p>- Người giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp đã đăng ký sử dụng dịch vụ cổng 9Pay và được 9PAY cấp tài khoản thành công trước và trong thời gian diễn ra chương trình khuyến mại.</p>
+							<p>- Người được giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp chưa từng Đăng ký sử dụng dịch vụ trung gian thanh toán 9Pay.</p>
+							<p>- Lượt giới thiệu thành công được ghi nhận khi Người được giới thiệu Đăng ký thành công cổng thanh toán 9PAY và được 9PAY cấp tài khoản (thông qua nhập Mã giới thiệu ở bước Đăng ký), hoàn thành Định danh thông tin cổng thanh toán 9PAY.</p>
+							<p>- Đối tượng tham gia là các cá nhân, hộ kinh doanh hoặc doanh nghiệp kinh doanh online qua các nền tảng mạng xã hội, website, sàn thương mại điện tử</p>
+							<p>- Người giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp đã đăng ký sử dụng dịch vụ cổng 9Pay và được 9PAY cấp tài khoản thành công trước và trong thời gian diễn ra chương trình khuyến mại.</p>
+							<p>- Người được giới thiệu: là những khách hàng cá nhân hoặc doanh nghiệp chưa từng Đăng ký sử dụng dịch vụ trung gian thanh toán 9Pay.</p>
+							<p>- Lượt giới thiệu thành công được ghi nhận khi Người được giới thiệu Đăng ký thành công cổng thanh toán 9PAY và được 9PAY cấp tài khoản (thông qua nhập Mã giới thiệu ở bước Đăng ký), hoàn thành Định danh thông tin cổng thanh toán 9PAY.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="box-payment" >
+			<div class="container">
+				<div class="title text-center">
+					<h2>Đa dạng các giải pháp thanh toán</h2>
+					<h4>Không cần tích hợp</h4>
+				</div>
+				<div class="list-payment">
+					<div class="row">
+						<div class="col-md-4 col-sm-6 col-6 text-center">
+							<div class="item-pay">
+								<div class="avarta"><img src="images/pay-1.png" class="img-fluid" alt=""></div>
+								<div class="info">
+									<h4>Mpos</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-6 text-center">
+							<div class="item-pay">
+								<div class="avarta"><img src="images/pay-2.png" class="img-fluid" alt=""></div>
+								<div class="info">
+									<h4>Payment link</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 text-center">
+							<div class="item-pay">
+								<div class="avarta"><img src="images/pay-3.png" class="img-fluid" alt=""></div>
+								<div class="info">
+									<h4>Đa nền tảng</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="desc-payment text-center text-uppercase">
+								<p>chấp nhận Thanh toán chuyển khoản, <br>ví điện tử, thẻ ATM, thẻ quốc tế (Visa, Master, JCB)</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section class="box-subject">
-		<div class="container">
-			<div class="title text-center">
-				<p>Hệ thống khóa học</p>
-				<h2>Chất lượng tại Zilom</h2>
-			</div>
-			<div class="search-sub">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="item-search">
-							<label>Từ khóa:</label>
-							<input type="text" placeholder="Tên lớp học, Giáo viên...">
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="item-search">
-							<label>Khu vực:</label>
-							<select name="" id="">
-								<option value="">Hà Nội</option>
-								<option value="">Hà Nội</option>
-								<option value="">Hà Nội</option>
-							</select>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="item-search">
-							<label>Trung tâm:</label>
-							<select name="" id="">
-								<option value="">Zilom Thanh Xuân</option>
-								<option value="">Zilom Thanh Xuân</option>
-								<option value="">Zilom Thanh Xuân</option>
-							</select>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="item-search">
-							<label>Level:</label>
-							<select name="" id="">
-								<option value="">Tất cả</option>
-								<option value="">Tất cả</option>
-								<option value="">Tất cả</option>
-							</select>
-						</div>
-					</div>
+		<div class="box-partner">
+			<div class="container">
+				<div class="title text-center">
+					<h2>Cảm ơn các đối tác đã tin tưởng <br> sử dụng dịch vụ của chúng tôi</h2>
 				</div>
-			</div>
-			<div class="list-subject">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="item-subject">
-							<div class="avarta"><a href=""><img src="images/sub-1.png" class="img-fluid w-100" alt=""></a></div>
-							<div class="info">
-								<h3><a href="">Online IELTS Level 7.5</a></h3>
-								<div class="numb-sec">
-									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z" fill="#4D5FE3"/>
-									</svg>
-									<span>15 buổi</span>
-								</div>
-								<div class="view-more text-center"><a href="">Chi tiết</a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="item-subject">
-							<div class="avarta"><a href=""><img src="images/sub-2.png" class="img-fluid w-100" alt=""></a></div>
-							<div class="info">
-								<h3><a href="">Online IELTS Level 7.5</a></h3>
-								<div class="numb-sec">
-									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z" fill="#4D5FE3"/>
-									</svg>
-									<span>15 buổi</span>
-								</div>
-								<div class="view-more text-center"><a href="">Chi tiết</a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="item-subject">
-							<div class="avarta"><a href=""><img src="images/sub-1.png" class="img-fluid w-100" alt=""></a></div>
-							<div class="info">
-								<h3><a href="">Online IELTS Level 7.5</a></h3>
-								<div class="numb-sec">
-									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z" fill="#4D5FE3"/>
-									</svg>
-									<span>15 buổi</span>
-								</div>
-								<div class="view-more text-center"><a href="">Chi tiết</a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="item-subject">
-							<div class="avarta"><a href=""><img src="images/sub-2.png" class="img-fluid w-100" alt=""></a></div>
-							<div class="info">
-								<h3><a href="">Online IELTS Level 7.5</a></h3>
-								<div class="numb-sec">
-									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z" fill="#4D5FE3"/>
-									</svg>
-									<span>15 buổi</span>
-								</div>
-								<div class="view-more text-center"><a href="">Chi tiết</a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="item-subject">
-							<div class="avarta"><a href=""><img src="images/sub-1.png" class="img-fluid w-100" alt=""></a></div>
-							<div class="info">
-								<h3><a href="">Online IELTS Level 7.5</a></h3>
-								<div class="numb-sec">
-									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z" fill="#4D5FE3"/>
-									</svg>
-									<span>15 buổi</span>
-								</div>
-								<div class="view-more text-center"><a href="">Chi tiết</a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="item-subject">
-							<div class="avarta"><a href=""><img src="images/sub-2.png" class="img-fluid w-100" alt=""></a></div>
-							<div class="info">
-								<h3><a href="">Online IELTS Level 7.5</a></h3>
-								<div class="numb-sec">
-									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z" fill="#4D5FE3"/>
-									</svg>
-									<span>15 buổi</span>
-								</div>
-								<div class="view-more text-center"><a href="">Chi tiết</a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="item-subject">
-							<div class="avarta"><a href=""><img src="images/sub-1.png" class="img-fluid w-100" alt=""></a></div>
-							<div class="info">
-								<h3><a href="">Online IELTS Level 7.5</a></h3>
-								<div class="numb-sec">
-									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z" fill="#4D5FE3"/>
-									</svg>
-									<span>15 buổi</span>
-								</div>
-								<div class="view-more text-center"><a href="">Chi tiết</a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="item-subject">
-							<div class="avarta"><a href=""><img src="images/sub-2.png" class="img-fluid w-100" alt=""></a></div>
-							<div class="info">
-								<h3><a href="">Online IELTS Level 7.5</a></h3>
-								<div class="numb-sec">
-									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M14 7C14 8.85652 13.2625 10.637 11.9497 11.9497C10.637 13.2625 8.85652 14 7 14C5.14348 14 3.36301 13.2625 2.05025 11.9497C0.737498 10.637 0 8.85652 0 7C0 5.14348 0.737498 3.36301 2.05025 2.05025C3.36301 0.737498 5.14348 0 7 0C8.85652 0 10.637 0.737498 11.9497 2.05025C13.2625 3.36301 14 5.14348 14 7ZM7 3.0625C7 2.94647 6.95391 2.83519 6.87186 2.75314C6.78981 2.67109 6.67853 2.625 6.5625 2.625C6.44647 2.625 6.33519 2.67109 6.25314 2.75314C6.17109 2.83519 6.125 2.94647 6.125 3.0625V7.875C6.12502 7.95212 6.14543 8.02785 6.18415 8.09454C6.22288 8.16123 6.27854 8.2165 6.3455 8.25475L9.408 10.0048C9.5085 10.0591 9.62626 10.0719 9.73611 10.0406C9.84596 10.0092 9.93919 9.93611 9.99587 9.83692C10.0525 9.73774 10.0682 9.62031 10.0394 9.50975C10.0107 9.39919 9.93982 9.30426 9.842 9.24525L7 7.62125V3.0625Z" fill="#4D5FE3"/>
-									</svg>
-									<span>15 buổi</span>
-								</div>
-								<div class="view-more text-center"><a href="">Chi tiết</a></div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="view-all text-center">
-							<a href="">Xem tất cả</a>
-						</div>
-					</div>
+				<div class="list-partber">
+					<ul>
+						<li><a href=""><img src="images/part-1.png" class="img-fluid" alt=""></a></li>
+						<li><a href=""><img src="images/part-2.png" class="img-fluid" alt=""></a></li>
+						<li><a href=""><img src="images/part-3.png" class="img-fluid" alt=""></a></li>
+						<li><a href=""><img src="images/part-4.png" class="img-fluid" alt=""></a></li>
+					</ul>
+					<ul>
+						<li><a href=""><img src="images/part-5.png" class="img-fluid" alt=""></a></li>
+						<li><a href=""><img src="images/part-6.png" class="img-fluid" alt=""></a></li>
+						<li><a href=""><img src="images/part-7.png" class="img-fluid" alt=""></a></li>
+						<li><a href=""><img src="images/part-8.png" class="img-fluid" alt=""></a></li>
+						<li><a href=""><img src="images/part-9.png" class="img-fluid" alt=""></a></li>
+					</ul>
 				</div>
-			</div>
-		</div>
-	</section>
-	<section class="box-banner-content text-center" style="background: url('images/bn-filed.png') no-repeat center;background-size: cover;">
-		<div class="container">
-			<div class="content-bn">
-				<h5>Hệ thống đào tạo <span>Zilom</span></h5>
-				<h3 class="text-uppercase">HỌC NHỮNG ĐIỀU MỚI MỖI NGÀY</h3>
-				<div class="desc">Luyện thi IELTS, TOEIC cam kết đầu ra. Đạt điểm số mong muốn <br> và tiết kiệm 80% thời gian tự học</div>
-			</div>
-		</div>
-	</section>
-	<section class="box-docs">
-		<div class="container">
-			<div class="title text-center">
-				<p>Hệ thống khóa học</p>
-				<h2>Thư viện tài liệu</h2>
-			</div>
-			<div class="slide-docs">
-				<div class="item-slide">
-					<div class="item-docs">
-						<div class="avarta text-center"><a href=""><img src="images/doc-1.png" class="img-fluid" alt=""></a></div>
-						<div class="info">
-							<h3><a href="">Tổng hợp và Giải đề thi thật IELTS Writing...</a></h3>
-							<p>216.000 đ</p>
-						</div>
-					</div>
+				<div class="part-cta text-center">
+					<a href="register.php"><img src="images/cta.png" class="img-fluid" alt=""></a>
 				</div>
-				<div class="item-slide">
-					<div class="item-docs">
-						<div class="avarta text-center"><a href=""><img src="images/doc-2.png" class="img-fluid" alt=""></a></div>
-						<div class="info">
-							<h3><a href="">Tổng hợp và Giải đề thi thật IELTS Writing...</a></h3>
-							<p>216.000 đ</p>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-docs">
-						<div class="avarta text-center"><a href=""><img src="images/doc-1.png" class="img-fluid" alt=""></a></div>
-						<div class="info">
-							<h3><a href="">Tổng hợp và Giải đề thi thật IELTS Writing...</a></h3>
-							<p>216.000 đ</p>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-docs">
-						<div class="avarta text-center"><a href=""><img src="images/doc-2.png" class="img-fluid" alt=""></a></div>
-						<div class="info">
-							<h3><a href="">Tổng hợp và Giải đề thi thật IELTS Writing...</a></h3>
-							<p>216.000 đ</p>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-docs">
-						<div class="avarta text-center"><a href=""><img src="images/doc-1.png" class="img-fluid" alt=""></a></div>
-						<div class="info">
-							<h3><a href="">Tổng hợp và Giải đề thi thật IELTS Writing...</a></h3>
-							<p>216.000 đ</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="view-all text-center">
-				<a href="">Xem tất cả</a>
-			</div>
-		</div>
-	</section>
-	<!-- <section class="box-feedback">
-		<div class="container">
-			<div class="title text-center">
-				<p>Khách hàng của Zilom</p>
-				<h2>Cảm nhận của học viên</h2>
-			</div>
-		</div>
-	</section> -->
-	<section class="box-member">
-		<div class="container">
-			<div class="title text-center">
-				<p>Hệ thống khóa học</p>
-				<h2>+500 giáo viên tận tụy</h2>
-			</div>
-			<div class="slide-member">
-				<div class="item-slide">
-					<div class="item-memb">
-						<div class="avarta"><a href=""></a><img src="images/mem-1.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<span>Ngô Thanh Vân</span>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-memb">
-						<div class="avarta"><a href=""></a><img src="images/mem-2.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<span>Ngô Thanh Vân</span>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-memb">
-						<div class="avarta"><a href=""></a><img src="images/mem-1.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<span>Ngô Thanh Vân</span>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-memb">
-						<div class="avarta"><a href=""></a><img src="images/mem-2.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<span>Ngô Thanh Vân</span>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-memb">
-						<div class="avarta"><a href=""></a><img src="images/mem-1.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<span>Ngô Thanh Vân</span>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-memb">
-						<div class="avarta"><a href=""></a><img src="images/mem-2.png" class="img-fluid w-100" alt=""></div>
-						<div class="info">
-							<span>Ngô Thanh Vân</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="box-blog">
-		<div class="container">
-			<div class="title text-center">
-				<p>Hệ thống khóa học</p>
-				<h2>Kho tàng kiến thức</h2>
-			</div>
-			<div class="slide-blog">
-				<div class="item-slide">
-					<div class="item-blog">
-						<div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
-						<div class="info">
-							<p>10/11/2021</p>
-							<h3><a href="">Giải đáp thắc mắc về cách ghi đáp án trong phần thi IELTS...</a></h3>
-							<div class="desc">
-								Anh Ngữ ZIM giải đáp một số thắc mắc các bạn thường gặp phải trong quá trình luyện và thi IELTS Listening
-							</div>
-							<div class="more-link"><a href="">ĐỌC TIẾP</a></div>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-blog">
-						<div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
-						<div class="info">
-							<p>10/11/2021</p>
-							<h3><a href="">Giải đáp thắc mắc về cách ghi đáp án trong phần thi IELTS...</a></h3>
-							<div class="desc">
-								Anh Ngữ ZIM giải đáp một số thắc mắc các bạn thường gặp phải trong quá trình luyện và thi IELTS Listening
-							</div>
-							<div class="more-link"><a href="">ĐỌC TIẾP</a></div>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-blog">
-						<div class="avarta"><a href=""><img src="images/blog-1.png" class="img-fluid w-100" alt=""></a></div>
-						<div class="info">
-							<p>10/11/2021</p>
-							<h3><a href="">Giải đáp thắc mắc về cách ghi đáp án trong phần thi IELTS...</a></h3>
-							<div class="desc">
-								Anh Ngữ ZIM giải đáp một số thắc mắc các bạn thường gặp phải trong quá trình luyện và thi IELTS Listening
-							</div>
-							<div class="more-link"><a href="">ĐỌC TIẾP</a></div>
-						</div>
-					</div>
-				</div>
-				<div class="item-slide">
-					<div class="item-blog">
-						<div class="avarta"><a href=""><img src="images/blog-2.png" class="img-fluid w-100" alt=""></a></div>
-						<div class="info">
-							<p>10/11/2021</p>
-							<h3><a href="">Giải đáp thắc mắc về cách ghi đáp án trong phần thi IELTS...</a></h3>
-							<div class="desc">
-								Anh Ngữ ZIM giải đáp một số thắc mắc các bạn thường gặp phải trong quá trình luyện và thi IELTS Listening
-							</div>
-							<div class="more-link"><a href="">ĐỌC TIẾP</a></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="box-partner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="title">
-						<p>Hệ thống khóa học</p>
-						<h2>Đối tác thân thiện <br> của Zilom</h2>
-						<div class="desc">Luyện thi IELTS, TOEIC cam kết đầu ra. Đạt điểm số mong muốn và tiết kiệm 80% thời gian tự học</div>
-					</div>
-				</div>
-				<div class="col-md-6"></div>
 			</div>
 		</div>
 	</section>
 </main>
 <?php include 'footer.php';?>     
+  
